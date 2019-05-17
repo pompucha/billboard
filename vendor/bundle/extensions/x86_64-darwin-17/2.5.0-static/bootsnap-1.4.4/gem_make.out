@@ -1,0 +1,15 @@
+current directory: /Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/gbenavi/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190516-5991-etrwot.rb extconf.rb
+creating Makefile
+
+current directory: /Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190516-5991-14yqtnq/bootsnap

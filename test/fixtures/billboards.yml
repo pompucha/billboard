@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ustop: MyString
+  eurotop: MyString
+  top: MyString
+
+two:
+  ustop: MyString
+  eurotop: MyString
+  top: MyString

@@ -1,0 +1,5 @@
+current directory: /Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/gems/childprocess-1.0.1/ext
+/Users/gbenavi/.rbenv/versions/2.5.1/bin/ruby mkrf_conf.rb
+
+current directory: /Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/gems/childprocess-1.0.1/ext
+/Users/gbenavi/.rbenv/versions/2.5.1/bin/ruby -rrubygems /Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/gems/rake-12.3.2/exe/rake RUBYARCHDIR=/Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/extensions/x86_64-darwin-17/2.5.0-static/childprocess-1.0.1 RUBYLIBDIR=/Users/gbenavi/Desktop/dpl_Summer2019/week2/music_billboard/vendor/bundle/extensions/x86_64-darwin-17/2.5.0-static/childprocess-1.0.1
