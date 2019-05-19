@@ -1,9 +1,24 @@
-<h1 class="ui header">Music Billboard</h1>
-<% @board.each do |board| %>
+<div class="container text-center">
+  <h1>Music Billboard</h1>
+  <div class="row">
+  <div class="col-md-4">
+    US TOP 100
+  </div>
+  <div class="col-md-4">
+    EURO TOP 100
+  </div>
+  <div class="col-md-4">
+    TOP 50 
+  </div>
+</row>
+<br>
+<br>
+<br>
+  <% @board.each do |board| %>
   <h1><%= board.name %></h1>
-        <%= link_to "Show", board_path(person) %>
-        <%= link_to "Edit", edit_board_path(person) %>
-        <%= link_to "Destroy", board_path(person), method: :delete %>
-    <% end %>
-<br />
+    <%= link_to "Show", board_path(person) %>
+    <%= link_to "Edit", edit_board_path(person) %>
+    <%= link_to "Destroy", board_path(person), method: :delete %>
+<% end %>
+  <br />
 <%= link_to "New Billboard", new_board_path %>
