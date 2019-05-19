@@ -1,0 +1,14 @@
+<%= form_with(model: billboard, local: true, class: "ui form") do |f| %>
+    <div class="field">
+      <%= f.label :ustop %>
+      <%= f.text_field :ustop, required: true, placeholder: "US Top 100" %>
+    </div>
+    <div class="field">
+      <%= f.label :eurotop %>
+      <%= f.text_field :eurotop, required: true, placeholder: "Euro Top 100" %>
+    </div>
+    <div class="field">
+      <%= f.label :top %>
+      <%= f.text_field :top, required: true, placeholder: "Top" %>
+    </div>
+<% end %>

@@ -1,2 +1,9 @@
-<h1>Board#index</h1>
-<p>Find me in app/views/board/index.html.erb</p>
+<h1 class="ui header">Music Billboard</h1>
+<% @board.each do |board| %>
+  <h1><%= board.name %></h1>
+        <%= link_to "Show", board_path(person) %>
+        <%= link_to "Edit", edit_board_path(person) %>
+        <%= link_to "Destroy", board_path(person), method: :delete %>
+    <% end %>
+<br />
+<%= link_to "New Billboard", new_board_path %>

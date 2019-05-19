@@ -1,2 +1,11 @@
-<h1>Board#show</h1>
-<p>Find me in app/views/board/show.html.erb</p>
+<div class="ui card">
+    <div class="content">
+        <p class="header">
+            <%= @board.name %>
+        </p>
+    </div>
+    <div class="extra content">
+        <% link_to 'Edit', edit_board_path(@board) %> |
+        <%= link_to 'Back', board_path %>
+    </div>
+</div>

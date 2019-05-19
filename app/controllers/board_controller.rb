@@ -14,18 +14,19 @@ class BoardController < ApplicationController
 
   def create
     @board = Billboard.new(board_params)
+    
     if @board.save
       redirect_to board_path
     else
       render :new
-    end
+  end
 
   def edit
   end
 
   def update
     if @board.update(board_params)
-      redirect_to board_path
+      redirect_to @board
     else 
       render :edit
     end
@@ -34,15 +35,15 @@ class BoardController < ApplicationController
   def destroy
     @board.destroy
     redirect_to board_path
-end
-
-private 
-  def set_board
-    @board = Billboard.find(params[:id])
   end
 
+  private 
+    def set_board
+    @board = Billboard.find(params[:id])
+    end
+
     def board_params
-  params.require(:board).permit(:ustop, :eurotop, :top)
+    params.require(:board).permit(:ustop, :eurotop, :top)
     end
   end
 end
