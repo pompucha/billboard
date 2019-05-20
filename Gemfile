@@ -14,7 +14,7 @@ gem 'semantic-ui-sass'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
-
+gem 'simple_form'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

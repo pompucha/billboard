@@ -1,2 +1,13 @@
-<h1>Songs#new</h1>
-<p>Find me in app/views/songs/new.html.erb</p>
+<h1>Add New Song</h1>
+
+
+
+
+<%= simple_form_for @song, :url => new_song_path, :method => :get do |f| %>
+<%# simple_form_for(@song, html: { class: 'form-inline' }) do |f| %>
+
+    <%= f.input :title, label: "Song Title/Name of Piece", placeholder: "Be sure spelling is correct" %>
+    
+    <%= f.submit "Post it!", class: 'my-btn' %>
+
+<% end %>
